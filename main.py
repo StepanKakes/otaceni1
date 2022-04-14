@@ -28,6 +28,4 @@ def otaceni(y):
     C[y]= abs(C[y]-4)
     
     
-    #B.reverse()
-    #C.reverse()
 input.on_button_pressed(Button.A, on_button_pressed_a)

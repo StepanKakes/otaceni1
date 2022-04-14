@@ -27,8 +27,6 @@ function otaceni(y: number) {
     C[y] = Math.abs(C[y] - 4)
 }
 
-// B.reverse()
-// C.reverse()
 input.onButtonPressed(Button.A, function on_button_pressed_a() {
     otaceni(0)
 })
